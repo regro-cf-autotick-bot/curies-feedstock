@@ -1,5 +1,5 @@
 {% set name = "curies" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/curies-{{ version }}.tar.gz
-  sha256: d3aaf16644b26ac2605ff83c565ec7df0ba0b5f7425516047666e609ec5fb718
+  sha256: f86da3539cee349249f5b64db99651053649551920b9fe945c150719c8b9b40e
 
 build:
   noarch: python
